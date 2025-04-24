@@ -9,7 +9,7 @@ async function  getCatbreeds () {
         para.appendChild(text);
         breedDom.appendChild(para);
        let list =document.createElement("ul");
-       for(let i = 0 ; i < breeds.lenght; i++){
+       for(let i = 0 ; i < breeds.length; i++){
         let breed = document.createElement ("li");
         let breedName = document.createTextNode(breeds[i].breed + ":" +  breeds[i].country)
         breed.appendChild(breedName)
